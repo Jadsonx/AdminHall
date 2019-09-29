@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Gms.Ads;
 
 namespace AdminHall.Droid
 {
@@ -17,8 +18,9 @@ namespace AdminHall.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            base.OnCreate(savedInstanceState);
+            base.OnCreate(savedInstanceState);          
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            MobileAds.Initialize(ApplicationContext, "ca-app-pub-3940256099942544/6300978111");
             LoadApplication(new App());
         }
     }

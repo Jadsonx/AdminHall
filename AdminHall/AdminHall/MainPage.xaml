@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AdminHall"
+             xmlns:ads="clr-namespace:AdminHall.Services"
              x:Class="AdminHall.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+
+        <ads:AdMobView x:Name="adMobView" 
+                         VerticalOptions="EndAndExpand"/>
+
+        <Button Text="Show ITS ADS" Clicked="Button_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

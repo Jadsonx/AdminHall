@@ -1,8 +1,9 @@
 ### **XAMARIN.FORMS**
 
 - Instale o plugin do **Xamarin.Firebase.Ads** versão **60.1142.1**
-Duvidas de como criar um ID de Anuncio? [clique aqui](https://julianocustodio.com/2018/04/19/admob-xamarin-forms/)
-Duvidas sobre este passo a passo? [Whatsapp](https://wa.me/5579998682289)
+- Duvidas de como criar um ID de Anuncio? [clique aqui](https://julianocustodio.com/2018/04/19/admob-xamarin-forms/)
+- Duvidas sobre este passo a passo? [Whatsapp](https://wa.me/5579998682289)
+
 No seu projeto Xamarin Forms, vamos criar uma classe chamada **AdMobView** 
 dentro dela vamos adicionar o seguinte código:
 ```
